@@ -1,0 +1,42 @@
+body {
+    background-color: #b0e57c; /* Verde claro */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 20px;
+}
+
+h1 {
+    background-color: #f5e3c9; /* Bege */
+    padding: 10px;
+    border-radius: 5px;
+    color: #2b3e50; /* Azul escuro */
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#esboco_a_ser_desenhado {
+    color: red;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px grey;
+    }
+    to {
+        box-shadow: 1px 1px 38px white;
+    }
+}
+
+#canvasContainer {
+    display: inline-block;
+    box-shadow: 1px 1px 38px grey;
+    animation: example 1s infinite alternate;
+}
